@@ -20,6 +20,7 @@ public class Data
 		System.out.println("statement to learn git basics. can be removed later.");
 		System.out.println("statement to learn git basics. can be removed later brach:REMB-123");
 		System.out.println("statement to learn git basics. can be removed later brach:REMB-123_Duplicate");
+		System.out.println("statement to learn git basics. can be removed later brach:REMB-123_Duplicate1");
 			
 		}
 	
