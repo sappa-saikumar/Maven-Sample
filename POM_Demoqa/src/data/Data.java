@@ -19,16 +19,13 @@ public class Data
 		pro.load(new FileInputStream("Config.properties"));
 		System.out.println("statement to learn git basics. can be removed later.");
 		System.out.println("statement to learn git basics. can be removed later brach:REMB-123");
-			
-		}
-	
-	
+		System.out.println("statement to learn git basics. can be removed later brach:REMB-1234");		
+		
+	}
 	public static String ReadFromPropertyFile(String property_data)
 	{
 		return pro.getProperty(property_data);
 	}
-	
-	
 	public static String getData(String columnname) throws IOException
 	{
 		File src = new File("input.xlsx");
@@ -51,10 +48,7 @@ public class Data
 				str=sh.getRow(j+1).getCell(i).getStringCellValue();
 			}
 			i=i+1;
-			
-				
 		}		
-		
 		return str;
 	}
 }
