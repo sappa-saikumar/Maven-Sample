@@ -21,7 +21,6 @@ public class Data
 		System.out.println("statement to learn git basics. can be removed later brach:REMB-123");
 		System.out.println("statement to learn git basics. can be removed later brach:REMB-1234");		
 		System.out.println("statement to learn git basics. can be removed later brach:REMB-123_Duplicate");
-		System.out.println("statement to learn git basics. can be removed later brach:REMB-123_Duplicate1");
 	}
 
 	public static String ReadFromPropertyFile(String property_data)
