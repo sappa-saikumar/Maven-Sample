@@ -17,6 +17,8 @@ public class Data
 	public static void  loadPropertyFile() throws FileNotFoundException, IOException
 	{
 		pro.load(new FileInputStream("Config.properties"));
+		System.out.println("statement to learn git basics. can be removed later.");
+		System.out.println("statement to learn git basics. can be removed later brach:REMB-123");
 			
 		}
 	
