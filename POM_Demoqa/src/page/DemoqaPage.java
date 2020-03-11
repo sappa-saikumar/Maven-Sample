@@ -64,10 +64,11 @@ public class DemoqaPage
 	
 	public void Login() throws IOException, InterruptedException
 	{
-		
-		
 		UserName.sendKeys(Data.getData("Username"));
+		System.out.println(Data.getData("username"));
 		Password.sendKeys(Data.getData("Password"));
+		System.out.println(Data.getData("Password"));
+		
 		Signin.click();
 		Thread.sleep(2000);
 	}
